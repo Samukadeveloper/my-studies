@@ -1,4 +1,4 @@
 from math import sqrt, floor
 numero = int(input('Digite um número: '))
 raiz = sqrt(numero)
-print('A    de {} é igual a {}'.format(numero, floor(raiz)))
+print(f'A raiz inteira de {numero} é igual a {floor(raiz)}')
